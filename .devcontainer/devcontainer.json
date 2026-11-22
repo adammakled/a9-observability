@@ -1,8 +1,0 @@
-{
-  "name": "A9 Observability",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
-  "features": { "ghcr.io/devcontainers/features/docker-in-docker:2": {} },
-  "forwardPorts": [16686, 3000],
-  "portsAttributes": { "16686": { "label": "Jaeger UI" }, "3000": { "label": "todo-service" } },
-  "postCreateCommand": "npm install"
-}
